@@ -53,6 +53,13 @@ h1{
     flex-direction: column;
     display: flex;
     justify-content: flex-end;
+    align-items: end;
+}
+
+.number {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
 }
 
 .footer {
@@ -64,6 +71,7 @@ h1{
 .fin {
     display: flex;
     justify-content: space-between;
+     
 }
 
 .visa {

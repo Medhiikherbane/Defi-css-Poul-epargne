@@ -5,33 +5,48 @@ export default function CreditCard () {
 
     return (
         <div id="cardContainer">
+
                 <div  className="recto">
                     <figcaption>
+
                         <div className="header">
+
                             <div className="debut">
             <img className="imgLogo" src="src/assets/poul'epargne.png" alt="" />
                 <h3>POUL' <br /> EPARGNE</h3>
+
                 </div>
             <img className="imgpoul" src="src/assets/Pouletvolant.png" alt="" />
-            </div> <br />
+                </div> <br />
+
                 <div className="center">
             <img className="imgsc" src="src/assets/sanscontact.png" alt="" />
             <img className="puce" src="src/assets/puce.png" alt="puce" />
                 </div>
-                <h1>**** **** **** 8346</h1>
-            <div className="footer">
+
+            <h1>**** **** **** 8346</h1>
+
+                <div className="footer">
+
             <img className="fleche" src="src/assets/insert.png" alt="" />
-                <div className="date">
+
+                    <div className="date">
                 <h3>CARTE DE CREDIT DEBIT</h3> <br />
-                <h3>EXPIRE A FIN</h3>
+                <div className="number">
+                <h3>EXPIRE  <br />A FIN</h3>
                 <h3>07/28</h3>
-                </div>
-                <div className="fin">
+                    </div>
+
+                    </div>
+
+                     <div className="fin">
                 <h2>MME GALINA C. NUGGETS</h2>
             <img className="visa" src="src/assets/visa.png" alt="" />
-            </div>
-                </div>
-                    </figcaption>
+                    </div>
+
+                    </div>
+
+                 </figcaption>
             </div>
 
            
